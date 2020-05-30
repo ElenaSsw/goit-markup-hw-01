@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Studio v.1</title>
+    <title>Web Studio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -19,14 +19,14 @@
       <ul>
         <li><a href="">Студия</a></li>
         <li><a href="">Контакты</a></li>
-        <li><a href="">Портфолио</a></li>
+        <li><a href="/portfolio.html">Портфолио</a></li>
       </ul>
     </nav>
    
     <!-- контакты в шапке -->
     <div>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li lang="en"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </div>
@@ -88,6 +88,7 @@
           <img src="./images/img-design.png" alt="Дизайнерские решения" width="370" />
         </li>
       </ul>
+    </section>
 
     <!-- Члены команды -->
     <section>
@@ -95,8 +96,8 @@
       <ul>
         <li>
           <div>
-            <h3>John Smith</h3>
-            <h4>Product Designer</h4>
+            <h3 lang="en">John Smith</h3>
+            <p lang="en">Product Designer</p>
             <img src="./images/imgJS.png" alt="John Smith photo" width="270" />
             <ul>
               <li><a href="">Instagram</a></li>
@@ -108,8 +109,8 @@
         </li>
         <li>
           <div>
-            <h3>Marta Stewart</h3>
-            <h4>Frontend Developer</h4>
+            <h3 lang="en">Marta Stewart</h3>
+            <p lang="en">Frontend Developer</p>
             <img src="./images/imgMS.png" alt="Marta Stewart photo" width="270" />
             <ul>
               <li><a href="">Instagram</a></li>
@@ -121,8 +122,8 @@
         </li>
         <li>
           <div>
-            <h3>Robert Jakis</h3>
-            <h4>Marketing</h4>
+            <h3 lang="en">Robert Jakis</h3>
+            <p lang="en">Marketing</p>
             <img src="./images/imgRJ.png" alt="Robert Jakis photo" width="270" />
             <ul>
               <li><a href="">Instagram</a></li>
@@ -134,8 +135,8 @@
         </li>
         <li>
           <div>
-            <h3>Martin Doe</h3>
-            <h4>UI Designer</h4>
+            <h3 lang="en">Martin Doe</h3>
+            <p lang="en">UI Designer</p>
             <img src="./images/imgMD.png" alt="Martin Doe photo" width="270" />
             <ul>
               <li><a href="">Instagram</a></li>
@@ -146,46 +147,81 @@
           </div>
         </li>
       </ul> 
-      
-      <!-- Клиенты -->
-      <section>
-        <h2>Постоянные клиенты</h2>
-        <ul>
-          <li>
-            <a href="/">
-              <img src="./images/client_1_logo.svg" alt="YA & CO" />
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <img src="./images/client_2_logo.svg" alt="Company Tag Line here" />
-            </a>
-          </li>
-         <li>
+    </section>
+
+    <!-- Клиенты --> 
+    <section>
+      <h2>Постоянные клиенты</h2>
+      <ul>
+        <li>
+          <a href="/">
+            <img src="./images/client_1_logo.svg" alt="YA & CO" />
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <img src="./images/client_2_logo.svg" alt="Company Tag Line here" />
+          </a>
+        </li>
+        <li>
           <a href="/">
             <img src="./images/client_3_logo.svg" alt="Company" />
           </a>
-         </li>
-         <li>
+        </li>
+        <li>
           <a href="/">
             <img src="./images/client_4_logo.svg" alt="Foster Peters" />
           </a>
-         </li>
-         <li>
+        </li>
+        <li>
           <a href="/">
             <img src="./images/client_5_logo.svg" alt="Brand" />
           </a>
-         </li>
-         <li><a href="/">
-          <img src="./images/client_6_logo.svg" alt="Company Tag Line" />
-        </a></li>
-        </ul>
+        </li>
+        <li>
+          <a href="/">
+            <img src="./images/client_6_logo.svg" alt="Company Tag Line" />
+          </a>
+        </li>
+      </ul>
     </section>
   </main>
 
   <!-- Подвальчик-->
   <footer>
-    Футер
+    <!-- логотип b адрес компании в подвальчике -->
+    <div>
+      <a href="/">
+        <img src="./images/logo.svg" alt="Логотип компании" />
+      </a>
+
+      <address>
+        г. Киев, пр-т Леси Украинки, 26<br>
+        <a lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
+        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      </address>
+    </div>
+    
+    <!-- Ссылки на соцсети -->
+    <div>
+      <p><b>Присоединяйтесь</b></p>
+      <ul>
+        <li><a href="">Instagram</a></li>
+        <li><a href="">Twitter</a></li>
+        <li><a href="">Facebook</a></li>
+        <li><a href="">Linkedin</a></li>
+      </ul>
+    </div>
+
+    <!-- Призыв подписаться -->
+    <div>
+      <p><b>Подпишитесь на рассылку</b></p>
+      <p>E-mail:<input type="email" name="login"></p>
+      <p><input type="submit" name="Подписаться"></p>
+      <img src="./images/icon_send.png" alt="Подписаться">
+    </div>
+
+    <p>2020 | Developed by GoIT Students</p>
   </footer>
 </body>
-</html>
+</html>   
